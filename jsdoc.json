@@ -12,6 +12,8 @@
     "opts": {
       "recurse": true,
       "destination": "./docs/",
-      "template": "./default"
+      "template": "./default",
+      "tutorials": "./tutorials",
+      "readme": "./readme.md"
     }
   }
