@@ -1,8 +1,23 @@
+// below line is important for type check error
+// @ts-check
+
 /**
- * Represents a book.
- * @constructor
- * @param {string} title - The title of the book.
- * @param {string} author - The author of the book.
+ * student name
+ * @type {string}
  */
-function Book(title, author) {
+const studentName = "krishna";
+
+/**
+ * array of grades 
+ * @type {Array<number>}
+ */
+const grades = [4, 6, 8.8];
+
+/**
+ * Todo Object
+ * @type {{id: number|string, text:string}}
+ */
+const todo = {
+    id:1,
+    text:'learn jsdoc'
 }
